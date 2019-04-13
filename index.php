@@ -15,6 +15,14 @@ if ($_GET['do']) {
 	$class_name = "main";
 }
 
-echo $class_name;
+function __autoload($class_name) {
+
+	require_once(CLASSES.$class_name.'.php');
+}
+
+$obj = new $class_name;
+$res_arr = $obj->get_body();
+
+require THEME.'index.php');
 
 ?>
