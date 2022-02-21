@@ -1,2 +1,2 @@
-# new-fm
-New multifunctional file manager (in the process)
+# php installer
+php installer (in the process)
