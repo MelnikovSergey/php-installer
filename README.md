@@ -1,2 +1,2 @@
 # php installer
-php installer (in the process)
+Simple installer for easy installation of web applications (in the process)
