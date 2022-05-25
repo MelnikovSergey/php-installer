@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Validation installation form</title>
+    <title>Installation form</title>
     <link rel='stylesheet' type='text/css' href='style.css'/>
   </head>
   <body>
