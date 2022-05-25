@@ -5,10 +5,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-		<title>Validation form</title>
+    <title>Validation installation form</title>
     <link rel='stylesheet' type='text/css' href='style.css'/>
- 	</head>
-	<body>
+  </head>
+  <body>
     <form name="installForm" class='installForm'>
     <ul>
         <li>
@@ -45,4 +45,4 @@
     </ul>
     </form>
   </body>
-</html>   
+</html>
