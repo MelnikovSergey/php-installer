@@ -21,7 +21,7 @@ if($mysql_version < 5.6) {
 	}
 }
 
-$install_application_session = $application_name . 'session';
+$install_application_session = $application_name . '_session_' . $postfix;
 
 $_SESSION[$install_application_session] = 1;
 
