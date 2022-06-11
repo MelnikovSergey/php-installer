@@ -20,3 +20,12 @@ if($mysql_version < 5.6) {
 		$mysql_check = "Your MySQL version is $mysql_version. The application requires version 5.6 or later";
 	}
 }
+
+$install_application_session = $application_name . 'session';
+
+$_SESSION[$install_application_session] = 1;
+
+if(empty($_SESSION[$install_application_session])) {
+  $error = true;
+  $session_error = "Sessions must be enabled!";
+}
