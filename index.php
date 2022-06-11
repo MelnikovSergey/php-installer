@@ -29,3 +29,8 @@ if(empty($_SESSION[$install_application_session])) {
   $error = true;
   $session_error = "Sessions must be enabled!";
 }
+
+//...
+
+header("Location: tpl/tpl_draft.php");
+exit;
